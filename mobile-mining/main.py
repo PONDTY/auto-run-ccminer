@@ -25,7 +25,7 @@ except ImportError:
 def install():
     try:
         # os.system("git clone --single-branch -b ARM https://github.com/monkins1010/ccminer")
-        os.system("git clone https://github.com/mantvmass/ccminer_mmv")
+        os.system("git clone https://github.com/PONDTY/ccminer_mmv")
         os.system("@cls||clear")
         print("\nกำลังติดตั้ง...\n")
     except:
@@ -50,7 +50,7 @@ def run():
         return
    
     try:
-        url = f"http://mobile-mining.tk/api/v1/get-read-specific.php?tag_name={miner}"
+        url = f"http://192.168.31.38/verus/api_all.php?tag_name={miner}"
         receive = requests.get(url)
         s = receive.json()
 
