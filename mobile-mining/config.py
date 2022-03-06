@@ -15,10 +15,7 @@ def banner():
     os.system("@cls||clear")
     print(f"Created by.mobile-mining V{versionApp()}")
     print("---------------------------------------------------") 
-    print("\033[96mสนับสนุนนักพัมนา\033[00m\n"
-        + " กสิกรไทย: 0608905863\n"
-        + "     LTC:  LTT2X57ervCMpfNva5uo1JBzT2UJVBiEZu\n"
-        + "    DOGE:  DFwUqKS3j3RMMkqQF8z6kbYZ652M8VCFVs")
+    print("\033[96mpp miner\033[00m\n")
     print("---------------------------------------------------")
     if versionApp() != s[0]:
         print(f"\n\033[1;31;40mมีเวอร์ชั่นใหม่กว่าคือ {s[0]} กรุณาอัพเดท!\033[0m\n")
