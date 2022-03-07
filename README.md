@@ -3,7 +3,7 @@
 <br>
 ## การติดตั้งแบบรวดเร็ว
 ```
-apt-get update -y && apt-get install git -y && git clone https://github.com/mantvmass/auto-run-ccminer && cd auto-run-ccminer && chmod +x setup.sh && sh setup.sh
+apt-get update -y && apt-get install git -y && git clone https://github.com/PONDTY/auto-run-ccminer && cd auto-run-ccminer && chmod +x setup.sh && sh setup.sh
 ```
 
 ## การติดตั้งตามขั้นตอน
@@ -14,7 +14,7 @@ apt-get update -y
 apt-get install git -y
 ```
 ```
-git clone https://github.com/mantvmass/auto-run-ccminer
+git clone https://github.com/PONDTY/auto-run-ccminer
 ```
 ```
 cd auto-run-ccminer
