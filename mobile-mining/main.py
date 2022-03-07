@@ -55,21 +55,21 @@ def run():
         s = receive.json()
 
         print("\033[1;34;40m")   
-        print("TAG    =  ",s['tag_name'])
-        print("WALLET =  ",s['wallet']+"."+nameMiner)
-        print("POOL   =  ",s['pool'])
+        print("TAG    =  ",s[0]['tag_name'])
+        print("WALLET =  ",s[0]['wallet']+"."+nameMiner)
+        print("POOL   =  ",s[0]['pool'])
 
 
         if s["pool"] in zergpool:
 
-            print("PASS   =  ",s['password']+",ID="+nameMiner)
+            print("PASS   =  ",s[0]['password']+",ID="+nameMiner)
             print("\033[00m\n")
 
             time.sleep(2)
             os.system(f"cd ccminer_mmv && ./ccminer -a verus -o {s['pool']} -u {s['wallet']}.{nameMiner} -p {s['password']},ID={nameMiner} -t {cpu}")
         else:
 
-            print("PASS   =  ",s['password'])
+            print("PASS   =  ",s[0]['password'])
             print("\033[00m\n")
 
             time.sleep(2)
