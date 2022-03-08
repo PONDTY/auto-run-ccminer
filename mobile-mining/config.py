@@ -8,8 +8,7 @@ def versionApp():
 
 # banner function
 def banner():
-    url = "http://mobile-mining.tk/api/app_update/versionApp.php"
-    receive = requests.get(url)
+
     s = receive.json()
 
     os.system("@cls||clear")
@@ -17,5 +16,3 @@ def banner():
     print("---------------------------------------------------") 
     print("\033[96mpp miner\033[00m\n")
     print("---------------------------------------------------")
-    if versionApp() != s[0]:
-        print(f"\n\033[1;31;40mมีเวอร์ชั่นใหม่กว่าคือ {s[0]} กรุณาอัพเดท!\033[0m\n")
