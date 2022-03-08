@@ -34,7 +34,6 @@ def setMiner():
         json.dump(push, set, indent=4)
 
 while True:
-    banner()
     print(f"  [ -- เมนู -- ]  \033[0;37;44mCPU = {cpu_thread}\033[0;37;40m")
     print("  [1] ตั้งค่า")
     print("  [0] ออก")
