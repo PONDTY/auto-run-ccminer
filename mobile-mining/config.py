@@ -9,7 +9,6 @@ def versionApp():
 # banner function
 def banner():
 
-    s = receive.json()
 
     os.system("@cls||clear")
     print(f"Created by.mobile-mining V{versionApp()}")
