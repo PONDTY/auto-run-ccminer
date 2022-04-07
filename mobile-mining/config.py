@@ -11,4 +11,4 @@ def banner():
 
 
     os.system("@cls||clear") 
-    print("\033[96mpp miner\033[00m\n")
+    print("\033[96mMINER VERUS\033[00m\n")
